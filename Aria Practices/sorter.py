@@ -1,4 +1,17 @@
-arr = [1,3,24,5,74,23,54,67,43]
+arr = []
+
+isAppending = True 
+
+while isAppending == True:
+    num = int(input('Add an Array number: '))
+    arr.append(num)
+    willAppened = int(input('Will you Continue?\n1. yes\n2. no\nInput Answer: '))
+    print()
+
+    if willAppened == 1:
+        isAppending = True
+    else:
+        isAppending = False
 
 SortedArrAsc = sorted(arr)
 SortedArrDesc = sorted(arr,reverse = True)

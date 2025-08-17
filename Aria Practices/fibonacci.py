@@ -1,5 +1,5 @@
 print()
-iter = int(input('input iterations for fibbonacci sequence: '))
+iter = int(input('input iterations for fibonacci sequence: '))
 leftNumber = 0
 rightNumber = 0
 currentNumber = 0

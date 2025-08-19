@@ -8,5 +8,3 @@ print('The equivelant in euro is:',Euro)
 print('The equivelant in dollar is:',Dollar)
 print('The equivelant in Yen is:',Yen)
 
-print('Juan Carlos Cruz')
-print('20231121178')

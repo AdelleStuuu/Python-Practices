@@ -1,0 +1,7 @@
+print()
+print(True and (not (True)))
+print(not((5 + 5) >= (2 * 5)) and False)
+print(( not (True or False) ) and ( not (True and False)))
+print((( 5 + 5 - 3 ) <= 10 ) and ( ( 5 * 5 / 1) >= 10 ))
+print((( 2 + 2) <= ( 2 * 2) ) and ( not ( True or False )))
+print()

@@ -1,0 +1,5 @@
+print('Database Record')
+print('\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\')
+print('Name:\t\tJohn Doe')
+print('Email:\t\tjohn.doe@example.com')
+print('University:\tABC University')

@@ -1,0 +1,6 @@
+print('Equations:')
+print('5\t+\t3\t=\t8')
+print('12\t-\t7\t=\t5')
+print('4\t*\t6\t=\t24')
+print('20\t/\t5\t=\t4')
+print('10\t%\t3\t=\t1')

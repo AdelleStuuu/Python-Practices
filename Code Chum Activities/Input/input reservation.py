@@ -1,0 +1,11 @@
+bookTitle = input('Enter the book title: ')
+author = input('Enter the author: ')
+yearOfPublication = input('Enter the year of publication: ')
+genre = input('Enter the genre: ')
+library = input('Enter the library: ')
+memberID = input('Enter your member ID: ')
+returnDate = input('Enter the return date: ')
+
+print("You have successfully reserved the book '" + bookTitle + "' by", author + ".")
+print('Year of Publication:',yearOfPublication,"\nGenre:",genre,'\nLibrary:',library)
+print("Member ID:",memberID,"\nReturn Date:",returnDate)

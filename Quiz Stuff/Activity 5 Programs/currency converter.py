@@ -1,3 +1,4 @@
+print()
 Peso = float(input('Enter money in peso: '))
 
 Euro = Peso/65 
@@ -8,3 +9,4 @@ print('The equivelant in euro is:',Euro)
 print('The equivelant in dollar is:',Dollar)
 print('The equivelant in Yen is:',Yen)
 
+print()

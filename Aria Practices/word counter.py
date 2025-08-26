@@ -1,0 +1,3 @@
+wordInput = input("Enter a word: ")
+wordCount = len(wordInput)
+print(f"The word '{wordInput}' has {wordCount} characters.")

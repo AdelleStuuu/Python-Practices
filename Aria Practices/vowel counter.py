@@ -6,7 +6,8 @@ def count_vowels(word):
             count += 1
     return count
 
+print()
 chosenWord = input("Enter a word: ")
 vowel_count = count_vowels(chosenWord.upper())
 print(f"Number of vowels in '{chosenWord}': {vowel_count}")
-
+print()

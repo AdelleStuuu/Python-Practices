@@ -19,7 +19,7 @@ def number_guesser():
                 print("Too high! Try again.")
             else:
                 guessed = True
-                print(f"Congratulations! You've guessed the number {number_to_guess} in {attempts} attempts.")
+                print(f"Congratulations! You've guessed the number {numberGuess} in {attempts} attempts.")
         except ValueError:
             print("Please enter a valid integer.")
     

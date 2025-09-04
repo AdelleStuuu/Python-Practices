@@ -1,0 +1,5 @@
+character1 = input('Enter the name of your first character: ')
+character2 = input('Enter the name of your second character: ')
+character3 = input('Enter the name of your third character: ')
+character4 = input('Enter the name of your fourth character: ')
+print(f'My most played characters in the game are {character1}, {character2}, {character3}, and {character4}.')

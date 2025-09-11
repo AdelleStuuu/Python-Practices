@@ -73,6 +73,8 @@ elif birthMonth == 12 and (birthDay == 1 or birthDay < 22):
 elif birthMonth == 12 and (birthDay == 22 or birthDay < 32):
     z = 'Capricorn'
     validityCheck = True 
+else:
+    validityCheck = False
 
 if validityCheck == True:
     print(f'Your zodiac sign is {z}.')

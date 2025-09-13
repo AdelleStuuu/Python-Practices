@@ -1,5 +1,10 @@
 import random 
-randomNum = random.randint(1,100)
+while True:
+    randomNum = random.randint(0,100)
+    
+    if not(randomNum <= 0):
+        break
+
 print()
 print('+--- Welcome to Adelle\'s number game!!! ---+')
 
@@ -36,9 +41,9 @@ while True:
         if number <= 0:
             print('Oop, Cant choose something equal to or less than 0!')
         elif randomNum >= number >= randNumRange:
-            print('The number is within range! Good job!')
+            print(f'The number is within the {randomNum} to {randNumRange} range! Good job!')
             break
-        elif randomNum < number < randNumRange:
+        elif randomNum > number < randNumRange:
             print('Oop, Try higher!')
         else:
             print('Oop, Try lower!')

@@ -1,5 +1,10 @@
 print()
-password = input('Enter your password here!: ')
+while True:
+    password = input('Enter your password here!: ')
+    if password == '':
+        print('Password can\'t be null!')
+    else:
+        break
 passwordSliced = list(password)
 numbers = str([1,2,3,4,5,6,7,8,9,0])
 strengthPoints = 0

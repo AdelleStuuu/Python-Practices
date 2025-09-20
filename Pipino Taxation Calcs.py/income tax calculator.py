@@ -6,7 +6,7 @@ while True:
     try:
         annualIncome = float(input("Enter your annual income! "))
     except ValueError:
-        print("Enter an integer value")
+        print("Enter a float value")
     else:
         break
 

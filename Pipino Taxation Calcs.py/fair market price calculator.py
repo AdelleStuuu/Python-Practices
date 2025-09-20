@@ -3,9 +3,9 @@ print("+--- Adelle's Market Property Value Assessment for Pipinos ---+")
 print()
 while True:
     try:
-        taxAmount = int(input("Enter the amount you paid for taxes: "))
+        taxAmount = float(input("Enter the amount you paid for taxes: "))
     except ValueError:
-        print("Enter an integer value")
+        print("Enter a float value")
     else:
         break
 
